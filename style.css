@@ -1,0 +1,182 @@
+
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+    background: #254441;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-row-gap: 30px;
+    color: #555;
+
+   
+    
+   
+}
+
+img {
+    max-width: 350px;
+    background: url(https://sweeney.agency/wp-content/uploads/2020/01/PS5_Logo-1024x256.png) no-repeat;
+    height: 5vh;
+    justify-content: center;
+    text-indent: -9999px;
+    margin: 0;
+}
+
+
+
+main {
+    
+        margin-top: 30px; /* Add a top margin to avoid content overlay */
+        padding: 30px 0 0 0;
+}
+
+header {
+     display: inline-flex;
+     position: fixed;
+     width: 90%;
+     margin: 0;
+     padding: 1rem;
+     
+    
+}
+
+.image {
+    flex: 1;
+    margin-bottom: 5px;
+}
+
+.nav-links {
+	
+	list-style: none;
+    flex: 1;
+    margin: 0;
+  
+    
+   
+}
+.nav-link {
+	color: #5f5f79;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+   
+    
+}
+
+
+
+
+a {
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    margin: 4px;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+#review,
+#features
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 0 20px 0;
+}
+
+#form {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.flex-container {
+    margin: 0 auto;
+    background-color: #171D1C;
+    border-color: black;
+    border-style: solid;
+    border-radius: 2%;
+    
+}
+
+.c1,
+.c2,
+.c3 {
+    flex: 1;
+    border: lightslategray;
+    border-radius: 2%;
+    border-color: white;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: auto;
+    border-style: groove;
+    text-align: center;
+    
+}
+
+h4,
+p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+image {
+    display: flex;
+    align-content: center;
+}
+
+.container {
+    margin: 1rem;
+}
+
+.button {
+    position: relative;
+    background-color: #04AA6D;
+    border: none;
+   font-size: inherit;
+    color: #FFFFFF;
+   
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
